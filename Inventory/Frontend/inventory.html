@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link rel="shortcut icon" href="images/fevicon.png" type="">
+
+  <title> Inventory</title>   
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <!--owl slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
+
+<body class="sub_page" style="background-color: #d3f3d4;">
+
+    <div class="hero_area" style="width: 100%;">
+        <!-- header section strats -->
+        <header class="header_section">
+          <div class="header_top">
+            <div class="container-fluid ">
+              <div class="contact_nav" style="height: 40px;">
+               <img src="images/Transparent Logo.png" alt="" style="height: 90px; width: 230px; margin-top:-25px; margin-left: -20px;">
+                  <h1 style="align-items: center; color: black;font-size: 30px; font-weight: bold;">Department of Physical Education and Sports</h1>
+                </a>
+                <a href=""> 
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="header_bottom">
+            <div class="container-fluid">
+              <nav class="navbar navbar-expand-lg custom_nav-container ">
+                <a class="navbar-brand" href="index.html">
+                 </a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active"> 
+                      <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="issue.html">Issue</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="issued.html">Issued</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="returned.html">Returned</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="available.html">Available</a>
+                    </li>
+                    <li class="nav-item">  
+                      <a class="nav-link" href="inventory.html">Inventory</a>
+                    </li> 
+                    <li class="nav-item">
+                      <a class="nav-link" href="reports.html">Report</a> 
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link" href="#" id="userDropdown"> 
+                        Hey, User <i class="fa fa-user" aria-hidden="true"></i></a>
+                      <div class="dropdown-content">
+                        <a href="ch_password.html">Change Password</a>
+                        <a href="index.html">Logout</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div> 
+              </nav>      
+            </div>   
+          </div> 
+        </header>
+        <div class="form-row dropdown-container" style="margin-left: 400px;">
+          <div class="form-group Institute">
+              <label for="issue-form-institute">Select Institute:</label>    
+              <select id="issue-form-institute" name="institute" onchange="showTable()" style="width: 45%;">
+                  <option value="">Select Institute</option>
+                  <option value="Manipal Institute of Technology">Manipal Institute of Technology (MIT)</option>
+                  <option value="Mahe Bangalore">Mahe BLR</option>
+                  <option value="Srishti Manipal Institute of Art and Design">Srishti Manipal Institute of Art and Design(SMI)</option>
+                  <option value="Hostel MAHE BLR">Hostel MAHE BLR</option>
+                </select>
+          </div>
+  </div>
+
+  <div class="form-row dropdown-container">
+      <div id="Manipal Institute of Technology" class="institute-table">
+          <h3 style="margin-left: 300px;">Manipal Institute of Technology (MIT) Equipment</h3>
+          <table style="margin-left: 200px;">
+              <thead>
+                <td>1</td>
+                <td>Badminton</td>
+                <td>Badminton Racket-MIT</td>
+                <td>2</td>
+                <td>2</td>
+                <td>2</td>
+                <td>2</td>
+          </tr>
+          <td>2</td>
+                <td>Badminton</td>
+                <td>Badminton Shuttles Y 350-MIT</td>
+                <td>20</td>
+                <td>0</td>
+                <td>20</td>
+                <td>0</td>
+          </tr>
+                <td>3</td>
+                  <td>Football</td>
+                  <td>Bag – (kit bag, ball carrying bag)-MIT </td>
+                  <td>2</td>
+                  <td>2</td>
+                  <td>0</td>
+                  <td>2</td>
+          </tr>
+                <td>4</td>
+                  <td>Basketball</td>
+                  <td>Basketball 6-MIT</td>
+                  <td>3</td>
+                  <td>0</td>
+                  <td>3</td>
+                  <td>0</td>
+          </tr>
+                <td>5</td>
+                    <td>Basketball</td>
+                    <td>Basketball 7-MIT</td>   
+                    <td>4</td>
+                    <td>4</td>
+                    <td>0</td>
+                    <td>4</td>
+          </tr>
+                <td>6</td>
+                    <td>Basketball</td>
+                    <td>Basketball net-MIT</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td>5</td>
+                      <td>5</td>
+          </tr>
+                <td>7</td>
+                <td>Basketball</td>
+                <td>Bibs-MIT</td>
+                <td>50</td>
+                <td>0</td>
+                <td>50</td>
+                <td>0</td>
+          </tr>
+                <td>8</td>
+                <td>Football</td>
+                <td>Corner Flag-MIT</td>
+                <td>5</td>
+                <td>0</td>
+                <td>5</td>
+                <td>0</td>
+          </tr>
+                <td>9</td>
+                <td>Cricket</td>
+                <td>Cricket Ab guard-MIT</td>
+                <td>10</td>
+                <td>10</td>
+                <td>0</td> 
+                <td>10</td>
+          </tr>
+                  <td>10</td>
+                  <td>Cricket</td>
+                  <td>Cricket Bat English Willow-MIT</td>
+                  <td>2</td>
+                  <td>2</td>
+                  <td>0</td>
+                  <td>2</td>
+          </tr>   
+                <td>11</td>
+                <td>Cricket</td>
+                <td>Cricket Hard Tennis Ball-MIT</td>
+                <td>100</td>
+                <td>0</td>
+                <td>100</td>
+                <td>0</td>
+          </tr>
+                <td>12</td>
+                <td>Cricket</td>
+                <td>Cricket Helmet-MIT</td>  
+                <td>4</td>
+                <td>4</td>
+                <td>0</td>
+                <td>4</td>
+          </tr>
+          <td>13</td>
+                <td>Cricket</td> 
+                <td>Cricket leather ball-MIT</td>
+                <td>12</td>
+                <td>2</td>
+                <td>10</td>
+                <td>2</td>
+          </tr>
+                <td>14</td>
+                <td>Cricket</td>
+                <td>Cricket elbow guard-MIT</td>
+                <td>2</td>  
+                <td>2</td> 
+                <td>0</td>  
+                <td>2</td>
+          </tr>
+                <td>15</td>
+                <td>Cricket</td>
+                <td>Cricket thigh pad-MIT</td>
+                <td>4</td>
+                <td>4</td>
+                <td>0</td>
+                <td>4</td>
+          </tr>
+                <td>16</td> 
+                <td>Cricket</td>
+                <td>Cricket Wicket Keeping Gloves-MIT</td>
+                <td>2</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+          </tr>
+                <td>17</td>
+                <td>Football</td>
+                <td>Football-MIT</td>
+                <td>4</td>
+                <td>2</td>
+                <td>2</td>
+                <td>2</td>
+          </tr>
+                <td>18</td>
+                <td>Apparels</td>
+                <td>Jersey-MIT</td>
+                <td>80</td>
+                <td>0</td>
+                <td>80</td>
+                <td>0</td>
+          </tr>
+                <td>19</td>
+                <td>Tennis</td>
+                <td>Tennis Ball -MIT</td>
+                <td>15</td>
+                <td>0</td>
+                <td>15</td>
+                <td>0</td>
+</tr>
+          <td>20</td>
+          <td>Tennis</td>
+           <td>Tennis Racket-MIT</td>
+           <td>2</td>
+           <td>0</td>
+           <td>2</td>
+           <td>0</td>
+          </tr>
+          <td>21</td>
+          <td>Table Tennis</td>
+           <td>TT Balls -MIT</td>
+           <td>40</td>
+           <td>20</td>
+           <td>20</td>
+           <td>20</td>
+          </tr>
+          <td>22</td>
+          <td>Table Tennis</td>
+           <td>TT Racket-MIT</td>
+           <td>8</td>
+           <td>8</td>
+           <td>0</td>
+           <td>8</td>
+          </tr>
+          <td>23</td>
+          <td>Volleyball</td>
+           <td>Volleyball-ball-MIT</td>
+           <td>4</td>
+           <td>2</td>
+           <td>2</td>
+           <td>2</td>
+          </tr>
+          <td>24</td>
+          <td>Apparels</td>
+          <td>Cricket Whites-MIT</td>
+           <td>15</td>
+           <td>3</td>
+           <td>12</td>
+           <td>3</td>
+          </tr>
+          </table>
+             </tbody>
+      </div>
+  
+      <div id="Mahe Bangalore" class="institute-table">
+          <h3 style="margin-left: 300px;">Mahe Bangalore Equipment</h3>
+          <table style="margin-left: 200px;">
+              <thead>
+                  <tr>
+                      <th>Sl No</th>
+                      <th>Particulars</th>
+                      <th>Total</th>
+                      <th>In Usage</th>
+                      <th>Damage</th>
+                      <th>Total Availability</th>
+                  </tr>
+              </thead>
+             <tbody>
+              <tr>
+                <td>1</td>
+                  <td>Football</td>
+                  <td>Air pump/Foot Pump</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>1</td>
+              </tr>
+              <tr>
+                  <td>2</td>
+                  <td>Badminton</td>
+                  <td>Badminton Racket </td>
+                  <td>2</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>2</td>
+              </tr>
+              <tr>
+                  <td>3</td>
+                  <td>Badminton</td>
+                  <td>Badminton Shuttles Y 350</td>
+                  <td>10</td>
+                  <td>7</td>
+                  <td>3</td>
+                  <td>7</td>
+              </tr>
+              <tr>
+                  <td>4</td>
+                  <td>Cricket</td>
+                  <td>Bag – (kit bag) </td>
+                  <td>2</td>
+                  <td>2</td>
+                  <td>0</td>
+                  <td>2</td>
+              </tr>
+              <tr>
+                  <td>5</td>
+                  <td>Basketball</td>
+                  <td>Basketball 6</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>1</td>
+                  <td>0</td>
+              </tr>
+              <tr>
+                  <td>6</td>
+                  <td>Basketball</td>
+                  <td>Basketball 7</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>1</td>
+                  <td>0</td>
+              </tr>
+              <tr>
+                  <td>7</td>
+                  <td>Basketball</td>
+                  <td>Basketball Net</td>
+                  <td>10</td>
+                  <td>2</td>
+                  <td>5</td>
+                  <td>5</td>
+              </tr>
+              <tr>
+                  <td>8</td>
+                  <td>Basketball</td>
+                  <td>Basketball Net [metal chain]</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>1</td>
+              </tr>
+              <tr>
+                  <td>9</td>
+                  <td>Carrom</td>
+                  <td>Carrom Board</td>
+                  <td>2</td>
+                  <td>2</td>
+                  <td>0</td>
+                  <td>2</td>
+              </tr>
+              <tr>
+                  <td>10</td>
+                  <td>Carrom</td>
+                  <td>Carrom coins</td>
+                  <td>3</td>
+                  <td>2</td>
+                  <td>1</td>
+                  <td>2</td>
+              </tr>
+              <tr>
+                  <td>11</td>
+                  <td>Carrom</td>
+                  <td>Carrom Powder</td>
+                  <td>3</td>
+                  <td>0</td>
+                  <td>3</td>
+                  <td>0</td>
+              </tr>
+              <tr>
+                  <td>12</td>
+                  <td>Chess</td>
+                  <td>Chess Clocks</td>
+                  <td>6</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>6</td>
+              </tr>
+              <tr>
+                  <td>13</td>
+                  <td>Athletics</td>
+                  <td>Clapper</td>
+                  <td>2</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>1</td>
+              </tr>
+              <tr>
+                  <td>14</td>
+                  <td>Cricket</td>
+                  <td>Cricket Mat </td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>1</td>
+              </tr>
+              <tr>
+                  <td>15</td>
+                  <td>Cricket</td>
+                  <td>Cricket Bat English Willow</td>
+                  <td>2</td>
+                  <td>2</td>
+                  <td>0</td>
+                  <td>2</td>
+              </tr>
+              <tr>
+                  <td>16</td>
+                  <td>Cricket</td>
+                  <td>Cricket Bat Grip</td>
+                  <td>10</td>
+                  <td>0</td>
+                  <td>10</td>
+                  <td>0</td>
+              </tr>
+              <tr>
+                  <td>17</td>
+                  <td>Cricket</td>
+                  <td>Cricket Bat Kashmir Willow</td>
+                  <td>2</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>1</td>
+              </tr>
+              <tr>
+                  <td>18</td>
+                  <td>Cricket</td>
+                  <td>Cricket Caps</td>
+                  <td>30</td>
+                  <td>0</td>
+                  <td>30</td>
+                  <td>0</td>
+              </tr>
+              <tr>
+                  <td>19</td>
+                  <td>Cricket</td>
+                  <td>Cricket Hard Tennis Ball</td>
+                  <td>100</td>
+                  <td>10</td>
+                  <td>90</td>
+                  <td>10</td>
+              </tr>
+              <tr>
+                  <td>20</td>
+                  <td>Cricket</td>
+                  <td>Cricket leather ball</td>
+                  <td>5</td>
+                  <td>0</td>
+                  <td>5</td>
+                  <td>0</td>
+              </tr>
+              <tr>
+                  <td>21</td>
+                  <td>Cricket</td>
+                  <td>Cricket Score Book</td>
+                  <td>6</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>5</td>
+              </tr>
+              <tr>
+                  <td>22</td>
+                  <td>Athletics</td>
+                  <td>Discuss</td>
+                  <td>4</td>
+                  <td>4</td>
+                  <td>0</td>
+                  <td>4</td>
+              </tr>
+              <tr>
+                  <td>23</td>
+                  <td>Football</td>
+                  <td>Footballs</td>
+                  <td>2</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>1</td>
+              </tr>
+              <tr>
+                  <td>24</td>
+                  <td>Football</td>
+                  <td>Football Goal Net</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>1</td>
+              </tr>
+              <tr>
+                  <td>25</td>
+                  <td>Athletics</td>
+                  <td>Javelin</td>
+                  <td>4</td>
+                  <td>4</td>
+                  <td>0</td>
+                  <td>4</td>
+              </tr>
+              <tr>
+                <td>26</td>
+                <td>Cricket</td>
+                <td>Mallet</td>
+                <td>2</td>
+                <td>2</td>
+                <td>0</td>
+                <td>2</td>
+            </tr>
+            <tr>
+              <td>27</td>
+              <td>Athletics</td>
+              <td>Relay Baton</td>
+              <td>8</td>
+              <td>8</td>
+              <td>0</td>
+              <td>8</td>
+          </tr>
+          <tr>
+            <td>28</td>
+            <td>Athletics</td>
+            <td>Shotput</td>
+            <td>4</td>
+            <td>4</td>
+            <td>0</td>
+            <td>4</td>
+        </tr>
+        <tr>
+          <td>29</td>
+          <td>Athletics</td>
+          <td>Stop Watch</td>
+          <td>6</td>
+          <td>6</td>
+          <td>0</td>
+          <td>6</td>
+      </tr>
+      <tr>
+        <td>30</td>
+        <td>Tennis</td>
+        <td>Tennis Ball </td>
+        <td>10</td>
+        <td>9</td>
+        <td>1</td>
+        <td>9</td>
+    </tr>
+    <tr>
+      <td>31</td>
+      <td>Tennis</td>
+      <td>Tennis Racket</td>
+      <td>2</td>
+      <td>2</td>
+      <td>0</td>
+      <td>2</td>
+    </tr>
+    <tr>
+    <td>32</td>
+        <td>Apparels</td>
+        <td>Track suits </td>
+        <td>20</td>
+        <td>13</td>
+        <td>7</td>
+        <td>13</td>
+    </tr>
+    <tr>
+        <td>33</td>
+        <td>Table Tennis</td>
+        <td>TT Balls </td>
+        <td>20</td>
+        <td>10</td>
+          <td>10</td>
+          <td>10</td>
+      </tr>
+<tr>
+    <td>34</td>
+      <td>Volleyball</td>
+      <td>Volleball Antenna </td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+</tr>
+<tr>
+  <td>35</td>
+      <td>Athletics</td>
+      <td>Whistle </td>
+      <td>5</td>
+      <td>0</td>
+     <td>0</td>
+  <td>0</td>
+</tr>
+<tr>
+  <td>36</td>
+      <td>Apparels</td>
+      <td>Shorts</td>
+      <td>80</td>
+      <td>80</td>
+      <td>80</td>
+      <td>0</td>
+</tr>
+             </tbody>
+          </table>
+      </div>
+  
+      <div id="Srishti Manipal Institute of Art and Design" class="institute-table">
+          <h3 style="margin-left: 300px;">Srishti Manipal Institute of Art and Design(SMI) Equipment</h3>
+          <table style="margin-left: 200px;">
+             <thead>
+              <tr>
+                  <th>Sl No</th>
+                  <th>Particulars</th>
+                  <th>Total</th>
+                  <th>In Usage</th>
+                  <th>Damage</th>
+                  <th>Total Availability</th>
+              </tr>
+             </thead>
+             <tbody>
+              <td>61</td>
+<td>Basketball</td>
+ <td>basketball (7size)-SMI</td>
+ <td>4</td>
+ <td>4</td>
+ <td>0</td>
+ <td>4</td>
+</tr>
+<td>62</td>
+<td>Basketball</td>
+ <td>basketball (6size)-SMI</td>
+ <td>4</td>
+ <td>4</td>
+ <td>0</td>
+ <td>4</td>
+</tr>
+<td>63</td>
+<td>Football</td>
+ <td>football-SMI</td>
+ <td>6</td>
+ <td>4</td>
+ <td>2</td>
+ <td>4</td>
+</tr>
+<td>64</td>
+<td>Volleyball</td>
+ <td>volleyball-SMI</td>
+ <td>4</td>
+ <td>4</td>
+ <td>0</td>
+ <td>4</td>
+</tr>
+
+             </tbody>
+          </table>
+      </div>
+      
+      <div id="Hostel MAHE BLR" class="institute-table">
+        <h3 style="margin-left: 300px;">Hostel MAHE BLR</h3>
+        <table style="margin-left: 200px;">
+           <thead>
+            <tr>
+                <th>Sl No</th>
+                <th>Particulars</th>
+                <th>Total</th>
+                <th>In Usage</th>
+                <th>Damage</th>
+                <th>Total Availability</th>
+            </tr>
+           </thead>
+           <tbody>
+            <td>1</td>
+<td>Carrom</td>
+ <td>Carrom Board-Hostel</td>
+ <td>4</td>
+ <td>4</td>
+ <td>0</td>
+ <td>4</td>
+</tr>
+<td>2</td>
+<td>Carrom</td>
+ <td>Carrom Coins-Hostel</td>
+ <td>8</td>
+ <td>7</td>
+ <td>1</td>
+ <td>7</td>
+</tr>
+<td>3</td>
+<td>Chess</td>
+ <td>Chess Board-Hostel</td>
+ <td>20</td>
+ <td>20</td>
+ <td>0</td>
+ <td>20</td>
+</tr>
+<td>4</td>
+<td>Table Tennis</td>
+ <td>TT Balls-Hostel</td>
+ <td>50</td>
+ <td>0</td>
+ <td>50</td>
+ <td>0</td>
+</tr>
+<td>5</td>
+<td>Table Tennis</td>
+ <td>TT board-Hostel</td>
+ <td>1</td>
+ <td>1</td>
+ <td>0</td>
+ <td>1</td>
+</tr>
+<td>6</td>
+<td>Table Tennis</td>
+ <td>TT Racket-Hostel</td>
+ <td>8</td>
+ <td>8</td>
+ <td>0</td>
+ <td>8</td>
+</tr>
+<td>7</td>
+<td>Volleyball</td>
+ <td>volleyball net-Hostel</td>
+ <td>2</td>
+ <td>2</td>
+ <td>0</td>
+ <td>2</td>
+</tr>
+<td>8</td>
+<td>Table Tennis</td>
+ <td>TT Racket-Hostel</td>
+ <td>8</td>
+ <td>8</td>
+ <td>0</td>
+ <td>8</td>
+</tr>
+<td>9</td>
+<td>Badminton</td>
+ <td>shuttle net-Hostel</td>
+ <td>2</td>
+ <td>2</td>
+ <td>0</td>
+ <td>2</td>
+</tr>
+<td>10</td>
+<td>Volleyball</td>
+ <td>Volleyball-Hostel</td>
+ <td>3</td>
+ <td>3</td>
+ <td>0</td>
+ <td>3</td>
+</tr>
+<td>11</td>
+<td>Volleyball</td>
+ <td>volleyball pole-Hostel</td>
+ <td>1</td>
+ <td>1</td>
+ <td>0</td>
+ <td>1</td>
+</tr>
+<td>12</td>
+<td>Badminton</td>
+ <td>badminton poles-Hostel</td>
+ <td>1</td>
+ <td>1</td>
+ <td>0</td>
+ <td>1</td>
+</tr>
+ </tbody>
+        </table>
+    </div>
+  </div>
+
+  <!-- jQery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- popper js -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <!-- bootstrap js -->
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <!-- owl slider -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+  <!-- custom js -->
+  <script type="text/javascript" src="js/custom.js"></script>
+  <!-- Google Map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
+  </script>
+  <!-- End Google Map -->
+
+  <script src="js/main.js"></script>
+
+  <script>
+    // Retrieve the username from local storage
+    const username = localStorage.getItem('username');
+
+    // Check if the username exists and update the nav bar
+    if (username) {
+        document.getElementById('userDropdown').innerHTML = `Hey, ${username} <i class="fa fa-user" aria-hidden="true"></i>`;
+    } else {
+        document.getElementById('userDropdown').innerHTML = 'Hey, User <i class="fa fa-user" aria-hidden="true"></i>';
+    }
+</script>
+
+
+</body>
+
+</html>

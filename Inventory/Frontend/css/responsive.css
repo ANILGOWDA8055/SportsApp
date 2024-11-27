@@ -1,0 +1,392 @@
+@media (max-width: 1300px) {}
+
+@media (max-width: 1120px) {}
+
+@media (max-width: 992px) {
+  .hero_area {
+    min-height: auto;
+  }
+
+  .custom_nav-container .navbar-nav {
+    padding-top: 15px;
+    align-items: center;
+  }
+
+
+  .custom_nav-container .navbar-nav .nav-item .nav-link {
+    padding: 5px 25px;
+    margin: 5px 0;
+  }
+
+  .slider_section {
+    padding: 75px 0;
+  }
+
+
+}
+
+@media (max-width: 768px) {
+  .about_section .img-box {
+    margin-top: 45px;
+  }
+
+  .contact_section {
+    padding-bottom: 0;
+  }
+
+  .contact_section .heading_container {
+    padding-left: 15px;
+  }
+
+  .contact_section .map_container {
+    margin-top: 45px;
+  }
+
+  .contact_section .form_container {
+    padding: 0 15px;
+    margin: 0;
+  }
+
+}
+
+@media (max-width: 576px) {
+  .header_section .header_top .contact_nav a span {
+    display: none;
+  }
+
+
+  .client_section .client_container {
+    width: 100%;
+  }
+
+  .client_section .box {
+    margin: 0;
+  }
+
+  .owl-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+  }
+
+  .client_section .owl-carousel .owl-nav .owl-prev,
+  .client_section .owl-carousel .owl-nav .owl-next {
+    position: unset;
+    margin: 0 2.5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .slider_section .detail-box h1 {
+    font-size: 2rem;
+  }
+
+  .track_section form {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .track_section form input {
+    width: 100%;
+  }
+
+  .track_section form button {
+    padding: 10px 60px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 420px) {
+  .service_section .box {
+    flex-direction: column;
+  }
+
+  .service_section .box .img-box {
+    justify-content: flex-start;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 376px) {}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+
+/* Student Details */
+.dashboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  /* height: 100vh; */
+}
+
+.form-card {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.addStudent {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.student-detail,#roll-no {
+  width: 30%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#stud-roll-no {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#add-student {
+  background: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 30%;
+}
+
+#add-student:hover {
+  background: #218838;
+}
+/* Student Details */
+
+/* available-Equipments table */
+.available-equipments {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* height: 80vh; */
+  background: #d3f3d4;
+}
+
+#searchBar {
+          width: 100%;
+          padding: 10px;
+          margin-bottom: 20px;
+          font-size: 16px;
+          box-sizing: border-box;
+      }
+
+.table-card {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px;
+}
+
+.equipments-table {
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #d7eece;
+  color: #333;
+}
+
+tr:nth-child(even) {
+  background-color: #d7eece;
+}
+
+tr:nth-child(odd) {
+background-color: white;
+}
+/* available-Equipments table*/
+
+/* Issued Equipments form */
+.form-container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  color: black;
+  border-radius: 10px;
+  transition: transform .2s;
+}
+
+.form-container:hover {
+transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+#issued-form-heading {
+  text-align: center;
+  color: rgb(58, 180, 58);
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.form-group {
+  flex: 1;
+  min-width: 45%;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  color: black;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+  background: rgb(233, 231, 231);
+  cursor: pointer;
+}
+
+.equipment-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.equipment-options label {
+  color: black;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.issued-form-dropdown-container {
+width: 100%;
+}
+
+  /* Select sport and equipments checkboxes  */
+  #sportSelect, #selectItemsButton {
+    /* width: 200px; */
+    padding: 5px;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+/* Style for the dropdown options */
+#selectItemsButton {
+    cursor: pointer;
+}
+
+.selectBox select {
+    /* width: 100%; */
+    font-size: 16px;
+    padding: 5px;
+}
+
+/* .overSelect {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+} */
+
+/* Checkbox container */
+#checkboxContainer {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* width: 200px; */
+    /* max-height: 150px; */
+    overflow-y: auto;
+    background-color: #f9f9f9;
+    position: relative;
+}
+
+/* Style for each label containing checkboxes */
+#checkboxContainer label {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 0;
+    cursor: pointer;
+    background-color: white;
+}
+
+/* Style for the checkboxes */
+#checkboxContainer input[type="checkbox"] {
+    margin-right: 10px;
+    cursor: pointer;
+    
+}
+
+/* Hover effect */
+#checkboxContainer label:hover {
+    background-color: #1e90ff;
+    color: white;
+}
+/* Select sport and equipments checkboxes  */
+
+#issued-form-button {
+  width: 100%;
+  padding: 15px;
+  color: black;
+  background: #14fc33;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+
+#issued-form-button:hover {
+  background-color: #5eff00;
+  border-radius: 25px;
+}
+
+@media (max-width: 600px) {
+  .form-group {
+      min-width: 100%;
+  }
+}
+/* Issued Equipments Form */

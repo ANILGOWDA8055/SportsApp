@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link rel="shortcut icon" href="images/fevicon.png" type="">
+
+  <title>Inventory</title>
+
+  <style>
+
+    h2 {
+        text-align: center;
+        color: #333;
+    }
+
+    .form-container {
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        margin: 20px auto;
+        max-width: 400px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: bold;
+    }
+
+    input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+
+    #submit {
+        width: 100%;
+        padding: 10px;
+        background-color: #28a745;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    #submit:hover {
+        background-color: #218838;
+    }
+</style>
+
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <!--owl slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+</head>
+
+<body class="sub_page">
+
+  <div class="hero_area" style="width: 100%;">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="header_top">
+        <div class="container-fluid ">
+          <div class="contact_nav" style="height: 40px;">
+            <!-- <a href="">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <span>
+                Call : +01 123455678990
+              </span>
+            </a>
+            <a href="">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <span>
+                Email : demo@gmail.com
+              </span> -->
+              <img src="images/Transparent Logo.png" alt="" style="height: 90px; width: 230px; margin-top:-25px; margin-left: -20px;">
+              <h1 style="align-items: center; color: black;font-size: 30px; font-weight: bold;">Department of Physical Education and Sports</h1>
+            </a>
+            <a href="">
+              <!-- <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <span>
+                Location
+              </span> -->
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="header_bottom">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg custom_nav-container ">
+            <a class="navbar-brand" href="index.html">
+             </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="issue.html">Issue</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="issued.html">Issued</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="returned.html">Returned</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="available.html">Available</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="inventory.html">Inventory</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="reports.html">Report</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="#" id="userDropdown"> 
+                    Hey, User <i class="fa fa-user" aria-hidden="true"></i></a>
+                  <div class="dropdown-content">
+                    <a href="ch_password.html">Change Password</a>
+                    <a href="index.html">Logout</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+  
+    
+    <h2>Generate Reports</h2>
+
+      <!-- Date Range Report Form -->
+      <div class="form-container">
+          <form id="dateRangeForm">
+            <h4><ins>Issued Equipment Report</ins></h4>
+            <label for="startDate">Start Date:</label>
+            <input type="date" id="startDate" name="startDate" required>
+        
+            <label for="endDate">End Date:</label>
+            <input type="date" id="endDate" name="endDate" required>
+        
+            <button type="submit"id="submit">Generate Report</button>
+          </form>
+      </div>
+
+  <!-- Backend/report.js -->
+  <script src="js/Backend JS/reports.js"></script>
+  <!-- main.js -->
+    <script src="js/main.js"></script>    
+  <!-- jQery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- popper js -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <!-- bootstrap js -->
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <!-- owl slider -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+  <!-- custom js -->
+  <script type="text/javascript" src="js/custom.js"></script>
+  <!-- Google Map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
+  </script>
+  <!-- End Google Map -->
+
+  <script>
+    // Retrieve the username from local storage
+    const username = localStorage.getItem('username');
+
+    // Check if the username exists and update the nav bar
+    if (username) {
+        document.getElementById('userDropdown').innerHTML = `Hey, ${username} <i class="fa fa-user" aria-hidden="true"></i>`;
+    } else {
+        document.getElementById('userDropdown').innerHTML = 'Hey, User <i class="fa fa-user" aria-hidden="true"></i>';
+    }
+</script>
+
+    </body>
+</html>
